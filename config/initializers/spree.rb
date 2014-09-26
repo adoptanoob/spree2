@@ -1,8 +1,8 @@
 Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( bx_loader.gif )
-Rails.application.config.assets.precompile << %w( store/print.css )
-Rails.application.config.assets.precompile << %w( icons.svg icons.ttf icons.eot icons.woff )
-Rails.application.config.assets.precompile << %w( images/bx_loader.gif images/controls.png )
+Rails.application.config.assets.precompile += %w( store/print.css )
+Rails.application.config.assets.precompile += %w( icons.svg icons.ttf icons.eot icons.woff )
+Rails.application.config.assets.precompile += %w( images/bx_loader.gif images/controls.png )
 
 
 

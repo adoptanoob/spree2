@@ -22,7 +22,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_auth_devise.git
-  revision: 4f4a76d4fab7f37702db3bed9caf0b3e10263916
+  revision: 8e5f91e3808ee18dc19aebe5a5675970419fef31
   branch: 2-3-stable
   specs:
     spree_auth_devise (2.2.0)

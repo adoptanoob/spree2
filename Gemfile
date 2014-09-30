@@ -12,6 +12,8 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
+
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 gem 'rails_12factor', group: :production
@@ -44,3 +46,6 @@ gem 'spree', '2.3.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-3-stable'
+gem 'spree_i18n', github: 'spree/spree_i18n', branch: '2-3-stable'
+gem 'spree_devis', :path => '../../spree_devis'
+gem 'spree_simple_sales', :path => '../../spree_simple_sales'

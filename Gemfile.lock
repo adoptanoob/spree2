@@ -41,18 +41,6 @@ GIT
     spree_gateway (2.3.0.beta)
       spree_core (~> 2.3.0)
 
-PATH
-  remote: ../../spree_devis
-  specs:
-    spree_devis (2.3.3)
-      spree_core (~> 2.3.3)
-
-PATH
-  remote: ../../spree_simple_sales
-  specs:
-    spree_simple_sales (2.3.3)
-      spree_core (~> 2.3.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -347,11 +335,9 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree (= 2.3.3)
   spree_auth_devise!
-  spree_devis!
   spree_fancy!
   spree_gateway!
   spree_i18n!
-  spree_simple_sales!
   spring
   sqlite3
   turbolinks

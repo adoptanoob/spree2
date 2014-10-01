@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/adoptanoob/spree_devis.git
-  revision: d33ab02de6f97eb36d80339c7b7999916b785690
+  revision: 011c0f2beb767eb5b82b8e201856898c30b02080
   specs:
     spree_devis (2.3.3)
       spree_core (~> 2.3.3)

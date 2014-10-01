@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/adoptanoob/spree_devis.git
+  revision: d33ab02de6f97eb36d80339c7b7999916b785690
+  specs:
+    spree_devis (2.3.3)
+      spree_core (~> 2.3.3)
+
+GIT
   remote: git://github.com/spree/spree_fancy.git
   revision: 7336df05ff1a7e7d1e42591f56c0165ad0b32bc0
   branch: 2-3-stable
@@ -335,6 +342,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree (= 2.3.3)
   spree_auth_devise!
+  spree_devis!
   spree_fancy!
   spree_gateway!
   spree_i18n!

@@ -12,6 +12,7 @@ Spree.config do |config|
     s3_headers:     { "Cache-Control" => "max-age=31557600" },
     s3_protocol:    "https",
     bucket:         ENV.fetch("AWS_S3_BUCKET"),
+    s3_host_name:   's3-eu-west-1.amazonaws.com',
  
 
  

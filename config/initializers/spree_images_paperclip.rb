@@ -3,18 +3,23 @@
 Spree.config do |config|
   attachment_config = {
     s3_credentials: {
-      access_key_id: ENV.fetch("AWS_S3_ACCESS_KEY_ID"),
-      secret_access_key: ENV.fetch("AWS_SECRET_ACCESS_KEY"),
-      bucket: ENV.fetch("AWS_S3_BUCKET"),
+      access_key_id: ENV["AWS_S3_ACCESS_KEY_ID"],
+      secret_access_key: ENV["AWS_SECRET_ACCESS_KEY"],
+      bucket: ENV["AWS_S3_BUCKET"],
     },
  
     storage:        :s3,
     s3_headers:     { "Cache-Control" => "max-age=31557600" },
     s3_protocol:    "https",
-    bucket:         ENV.fetch("AWS_S3_BUCKET"),
+    bucket:         ENV["AWS_S3_BUCKET"],
     s3_host_name:   's3-eu-west-1.amazonaws.com',
- 
 
+    styles: {
+      mini:     "48x48>",
+      small:    "100x100>",
+      product:  "240x240>",
+      large:    "600x600>"
+    },
  
     path:          ":rails_root/public/spree/products/:id/:style/:basename.:extension",
     default_url:   "/spree/products/:id/:style/:basename.:extension",

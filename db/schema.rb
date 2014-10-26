@@ -11,23 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140930281346) do
+ActiveRecord::Schema.define(version: 20141026145539) do
 
   create_table "devis", force: true do |t|
     t.string   "name"
+    t.string   "plan_url"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "plan_file_name"
-    t.string   "plan_content_type"
-    t.integer  "plan_file_size"
-    t.datetime "plan_updated_at"
-  end
-
-  create_table "quotes", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.decimal  "price",      precision: 8, scale: 2
   end
 
   create_table "spree_addresses", force: true do |t|

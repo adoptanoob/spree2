@@ -1,9 +1,8 @@
 GIT
   remote: git://github.com/adoptanoob/spree_devis.git
-  revision: e8caf1c31c0cc8c97ca25059ac9264b924d9f0c9
+  revision: bc41438a5a9f0aa214cc0f8b5a89f90bebb59382
   specs:
     spree_devis (2.3.3)
-      aws-sdk
       spree_core (~> 2.3.3)
 
 GIT
